@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Lite - Lightweight GUI Minecraft Launcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <canvas id="stars"></canvas>
+
+    <div id="nav-placeholder" data-page="lite"></div>
+
+    <header class="launcher-hero">
+        <div class="nebula-bg"></div>
+        <div class="container launcher-hero-content">
+            <div class="launcher-badge">Lightweight GUI</div>
+            <h1 class="launcher-title">Nebula Lite</h1>
+            <p class="launcher-tagline">Simple. Visual. Light.</p>
+            <p class="launcher-description">A Python GUI launcher built with tkinter/customtkinter. Visual interface without the full Nebula weight. The perfect middle ground between Nano and Nebula.</p>
+            <div class="hero-buttons">
+                <a href="download.html" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="feature-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visual. Lightweight. Fast.</h2>
+                <p class="section-subtitle">All the simplicity of Nano, with a proper GUI.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card-icon">🐍</div>
+                    <h3>Python Based</h3>
+                    <p>Built with Python. Easy to modify, extend, and contribute to.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card-icon">🪟</div>
+                    <h3>Lightweight GUI</h3>
+                    <p>Clean tkinter/customtkinter window. No terminal, no bloat. Just a simple interface.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card-icon">📂</div>
+                    <h3>Version Management</h3>
+                    <p>Switch between Minecraft versions with a dropdown. No commands needed.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card-icon">💾</div>
+                    <h3>RAM Configuration</h3>
+                    <p>Set memory allocation with a simple slider or input field.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card-icon">👤</div>
+                    <h3>Username Configuration</h3>
+                    <p>Set your username once in the GUI. Plays every time.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card-icon">🔓</div>
+                    <h3>Offline Support</h3>
+                    <p>No account required. Play single-player or on cracked servers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="screenshot-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">See It In Action</h2>
+                <p class="section-subtitle">Screenshots coming soon.</p>
+            </div>
+            <div class="screenshot-placeholder">
+                <div class="screenshot-frame">
+                    <div class="screenshot-placeholder-text">
+                        <span>Screenshot Placeholder</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nano vs Lite vs Nebula</h2>
+                <p class="section-subtitle">Not sure which to pick?</p>
+            </div>
+
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Nano</th>
+                            <th>Lite</th>
+                            <th>Nebula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Language</td>
+                            <td class="text-accent">Python (single file)</td>
+                            <td class="text-accent">Python (GUI app)</td>
+                            <td class="text-accent">Python (full app)</td>
+                        </tr>
+                        <tr>
+                            <td>Interface</td>
+                            <td>Terminal</td>
+                            <td class="text-accent">Lightweight GUI</td>
+                            <td>Full GUI</td>
+                        </tr>
+                        <tr>
+                            <td>Binary Size</td>
+                            <td>&lt; 1MB</td>
+                            <td>~5MB</td>
+                            <td>~50MB</td>
+                        </tr>
+                        <tr>
+                            <td>Mod Support</td>
+                            <td class="text-dim">No</td>
+                            <td class="text-dim">No</td>
+                            <td class="text-accent">Modrinth</td>
+                        </tr>
+                        <tr>
+                            <td>Authentication</td>
+                            <td>Offline only</td>
+                            <td>Offline only</td>
+                            <td>Ely.by + Offline</td>
+                        </tr>
+                        <tr>
+                            <td>Skins</td>
+                            <td class="text-dim">No</td>
+                            <td class="text-dim">No</td>
+                            <td class="text-accent">Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Instances</td>
+                            <td>Single</td>
+                            <td>Single</td>
+                            <td>Multiple</td>
+                        </tr>
+                        <tr>
+                            <td>Java Management</td>
+                            <td class="text-dim">Manual</td>
+                            <td class="text-dim">Manual</td>
+                            <td class="text-accent">Auto</td>
+                        </tr>
+                        <tr>
+                            <td>Startup Time</td>
+                            <td class="text-accent">&lt; 100ms</td>
+                            <td class="text-accent">~1s</td>
+                            <td>~2s</td>
+                        </tr>
+                        <tr>
+                            <td>Stability</td>
+                            <td class="text-accent">Stable</td>
+                            <td class="text-accent">Stable</td>
+                            <td>Proof of Concept</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container cta-content">
+            <h2>Go Light</h2>
+            <p>Download Nebula Lite and launch Minecraft with a simple visual interface.</p>
+            <div class="hero-buttons">
+                <a href="download.html" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo">Nebula</span>
+                <p>Open source. Always free.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../nav.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
