@@ -1,6 +1,7 @@
 # Nebula Website
 
 The official website for the Nebula Minecraft launcher family.
+Link: https://nebula-launcher.github.io/website/
 
 ## Features
 
